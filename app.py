@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeRegressor
 # Configure Google Generative AI
 genai.configure(api_key="AIzaSyCJVYkpDOt6-hdf8CTTDI6nPUkJE7y4Rs0")
 
-# Helper Functions
+# Helper Function
 def generate_ai_summary(title, description, key_insights):
     """
     Generate AI-powered summaries for each chart.
